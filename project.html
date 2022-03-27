@@ -1,0 +1,9 @@
+<div>
+    <h3>{{ name }}</h3>
+    <p><a href="{{ website-url }}">Live Website</a> <a href="{{ github-url }}">Github</a></p>
+    <p>{{ description }}</p>
+    <p>Technologies used:</p>
+    <ul>
+        {% list:technologies li %}
+    </ul>
+</div>
